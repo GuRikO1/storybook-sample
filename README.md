@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GitHub Pages: https://guriko1.github.io/storybook-sample/
 
 ## Available Scripts
 
