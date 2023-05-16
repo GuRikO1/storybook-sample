@@ -1,0 +1,53 @@
+@import url("../../assets/css/color.css");
+
+.modal-inner {
+  padding: 8px 16px;
+}
+
+@media (prefers-color-scheme: light) {
+  .modal-inner {
+    background-color: white;
+  border: 1px solid dimgray;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .modal-inner {
+    background-color: var(--color-deep-gray);
+    border: 1px solid lightgray;
+  }
+}
+
+.modal-header {
+  display: flex;
+  justify-content: right;
+}
+
+.modal-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-message {
+  font-size: 16px;
+  font-family: monospace;
+}
+
+@media (prefers-color-scheme: light) {
+  .modal-message {
+    color: var(--color-deep-gray);
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .modal-message {
+    color: lightgray;
+  }
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+}

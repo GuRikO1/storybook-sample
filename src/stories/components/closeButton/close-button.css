@@ -1,0 +1,20 @@
+.close-button {
+  font-size: 24px;
+  font-family: monospace;
+  color: dimgray;
+}
+
+.close-button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  .close-button {
+    color: lightgray;
+  }
+
+  .close-button:hover {
+    color: white;
+  }
+}
